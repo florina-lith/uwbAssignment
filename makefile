@@ -1,6 +1,6 @@
-all: readme.md
+all: README.md
 
-readme.md: guessinggame.sh
+README.md: guessinggame.sh
 	echo "#Peer-graded Assignment: Bash, Make, Git, and GitHub" > readme.md
 	echo '##Author: Paul Borman' >> readme.md
 	echo "Created: $$(date +'%D %T %p %Z')" >> readme.md
